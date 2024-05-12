@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 async function getData(){
-  const res = await fetch("https://blog-portfolio-qp75.onrender.com/api/posts",{
+  const res = await fetch("https://blog-portfolio-rxoe.vercel.app/api/posts",{
     cache:"no-store"
   })
   if(!res.ok){
